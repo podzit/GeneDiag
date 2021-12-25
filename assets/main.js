@@ -21,10 +21,10 @@ function startTimer(duration) {
 }
 
 function reload(){
-    var quinze = 15;
+    var dix = 10;
     display = document.querySelector('#bouton');
-    startTimer(quinze);
-    setTimeout("window.location.reload()", 16000);
+    startTimer(dix);
+    setTimeout("window.location.reload()", 11000);
 };
 function error(){
     // BSOD
