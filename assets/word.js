@@ -48,7 +48,7 @@ export const words = {
     "a provoqué une erreur d'écriture dans la base de registre"
   ],
   conseq: [
-    "réinstaller Windows xp à l'aide de la disquette fournie.", 
+    "réinstaller Windows XP à l'aide de la disquette fournie.", 
     "recréer la table de partition du processeur.",
     "formater toutes les partitions du graveur.",
     "essayer avec un autre PC fonctionnant sur Linux.",
