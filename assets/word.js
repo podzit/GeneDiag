@@ -19,6 +19,10 @@ export const words = {
     "Le contrôleur à processeur DSP de traitement de signaux audio",
     "Le contrôleur de protocole de réseau local à commutation de paquets",
     "Le disque statique à semi-conducteurs",
+    "Le dispositif de télécommunication",
+    "Le capteur anti-intrusion",
+    "Le bus parallèle d'interface système",
+    "L'émulateur de terminal de pilotage",
     "Le dispositif de calcul à propriétés quantiques de la matière"
   ],
   action: [
@@ -39,6 +43,8 @@ export const words = {
     "n'a pas réussi à comprendre votre requête",
     "a rendu un matériel essentiel défaillant",
     "a provoqué une erreur incompréhensible pour un humain",
+    "a déterioré les secteurs de démarrage du scanner",
+    "a empêché la mémoire cache de stocker des données indispensables",
     "a provoqué une erreur d'écriture dans la base de registre"
   ],
   conseq: [
@@ -58,6 +64,11 @@ export const words = {
     "réinstaller le profil utilisateur par défaut.",
     "modifier la position de l'interface chaise-clavier.",
     "lire le manuel d'utilisation en commençant par la page 4.",
+    "numériser le QR code de la documentation.",
+    "contacter le service client au 0 800 15 2000.",
+    "vous rendre sur le site internet de Compaq.",
+    "prendre rendez-vous avec un ingénieur en aérodynamie balistique.",
+    "vous connecter au 3615 diaginfo.",
     "désinstaller votre antivirus et télécharger un fichier sur le dark web."
   ],
 };
