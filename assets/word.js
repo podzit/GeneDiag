@@ -45,6 +45,8 @@ export const words = {
     "a provoqué une erreur incompréhensible pour un humain",
     "a déterioré les secteurs de démarrage du scanner",
     "a empêché la mémoire cache de stocker des données indispensables",
+    "a envoyé des courriels à tous vos contacts",
+    "a endommagé le périphérique d'acquisition d'images",
     "a provoqué une erreur d'écriture dans la base de registre"
   ],
   conseq: [
@@ -70,5 +72,5 @@ export const words = {
     "prendre rendez-vous avec un ingénieur en aérodynamie balistique.",
     "vous connecter au 3615 diaginfo.",
     "désinstaller votre antivirus et télécharger un fichier sur le dark web."
-  ],
+  ]
 };
