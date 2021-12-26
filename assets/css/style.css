@@ -9,16 +9,6 @@
     min-height: 500px;
     margin:auto;
 }
-.diag{
-    position: relative;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    font-size:calc(12px + 1.2vw);
-    text-align: left;
-    width: 68%;
-    margin: 27% auto;
-    overflow: auto;
-}
 button{
     z-index: 3;
     text-align: center;
@@ -36,4 +26,24 @@ button{
     background-image: linear-gradient(top,#4d90fe,#4787ed);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d90fe',endColorstr='#4787ed',GradientType=0);
+}
+.count{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: calc(10px + 1vw);
+    text-align: right;
+    width: 50%;
+    margin: 7% 38%;
+    overflow: auto;
+}
+.diag{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size:calc(12px + 1.2vw);
+    text-align: left;
+    width: 68%;
+    margin: 20% auto;
+    overflow: auto;
 }
