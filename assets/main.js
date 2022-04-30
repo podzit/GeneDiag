@@ -75,9 +75,14 @@ function increment(value){
     // AJAX
     let xhr = new XMLHttpRequest();
     xhr.open("POST", "./increment.php");
+
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) {
+           console.log(xhr.status);
+           console.log(xhr.responseText);
+        }};
   
     // What to do when server responds
-    //xhr.onload = function(){ console.log(feedValue); };
     xhr.send(data);
 };
 // Load and convert csv file to array
@@ -91,6 +96,7 @@ function parseData(url, callBack) {
 };
 // print counter
 function printCount(data){
+    console.log(data);
     count.innerHTML = `${data.length - 1} erreurs générées`;
 };
 
